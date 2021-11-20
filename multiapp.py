@@ -98,28 +98,4 @@ class MultiApp:
                     alt="free web stats"></a></div></noscript>
                     <!-- End of Statcounter Code -->
                 """)
-                components.html(
-                    """
-                    <!DOCTYPE html>
-                    <html lang="en">
-                    <head>
-                        <meta charset="UTF-8">
-                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>Document</title>
-                        <!-- Global site tag (gtag.js) - Google Analytics -->
-                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0P9PCH07XX"></script>
-                        <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-
-                        gtag('config', 'G-0P9PCH07XX');
-                        </script>
-                    </head>
-                    <body>
-                        
-                    </body>
-                    </html>    
-                    """
-                )
+                components.iframe("https://github.com/alvin902london/PyClimWebApp/blob/main/analytics.html")
