@@ -98,4 +98,4 @@ class MultiApp:
                     alt="free web stats"></a></div></noscript>
                     <!-- End of Statcounter Code -->
                 """)
-                components.iframe("https://amlnsoft.com/analytics.html", height=1, scrolling=False)
+                components.iframe("https://amlnsoft.com/analytics.html", height=100, scrolling=False)
