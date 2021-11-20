@@ -98,4 +98,4 @@ class MultiApp:
                     alt="free web stats"></a></div></noscript>
                     <!-- End of Statcounter Code -->
                 """)
-                components.iframe("https://github.com/alvin902london/PyClimWebApp/blob/main/analytics.html")
+                components.iframe("https://amlnsoft.com/analytics.html", height=1, scrolling=False)
